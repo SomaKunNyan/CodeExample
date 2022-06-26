@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -24,7 +21,7 @@ namespace ConsoleApp1
             Print((firstNumber == 30 || secondNumber == 30) 
                    || (firstNumber + secondNumber == 30));
         }
-
+        
         public void CheckSumOfRandom()
         {
             Console.WriteLine("Enter count of couples numbers");
@@ -45,6 +42,5 @@ namespace ConsoleApp1
             else Console.WriteLine(firstNumber + "+" + secondNumber 
                                    + " Sum of numbers not equal 30");
         }
-        
     }
 }
